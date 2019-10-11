@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	z-index:1;
+	background-color:#F5F5F5;
+}
+#Header{
+	width:100%;
+	height: 77px;
+	background-color:#FFF;
+	border-bottom:#999 3px solid;
+	z-index:5;
+}
+#LogoIcon{
+	top:10px;
+	left:600px;
+	z-index:10;
+	position:absolute;
+	background-repeat:no-repeat;
+	background-size:contain;
+	transition:2s;	
+}
+
+#Post{
+	background-color:#FFF;
+	border:3px solid #e6e6e6;
+	width:550px;
+	height:385px;
+	position: absolute;
+	margin-top: 40px;
+    margin-left : 30%;
+	z-index:11;
+	
+}
+#PostImage{
+	position:absolute;
+	margin-top:35px;
+	background-image:url(lan%20huong.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	z-index:11;
+	width:550px;
+	height:320px;
+	
+}
+#UserName{
+	position:absolute;
+	top:7px;
+	left:38px;
+	font-size:15px;
+	font-weight:bold;
+	font-family:'PT Sans', sans-serif;
+}
+#img{
+	border-radius: 50%;
+ 
+}
+#UserAvatar{
+	left:3px;
+	position:absolute;
+	top:2px;
+}
+#Caption{
+	top:360px;
+	left:5px;
+	position:absolute;
+	z-index:12;
+	font-family:'PT Sans', sans-serif;
+	font-size:15px;
+}
